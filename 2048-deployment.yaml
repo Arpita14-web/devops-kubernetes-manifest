@@ -14,7 +14,7 @@ spec:
         app: "frontend"
     spec:
       containers:
-      - image: 317018178943.dkr.ecr.ap-south-1.amazonaws.com/arpita-cicd:1
+      - image: 317018178943.dkr.ecr.ap-south-1.amazonaws.com/arpita-cicd:3
         imagePullPolicy: Always
         name: "frontend"
         ports:
